@@ -1,6 +1,8 @@
 # TargetSistemas
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+Aplicação para o processo seletivo da target sistemas. Onde foram feitos 4 desafios para serem respondidos com o código de escolha do candidato. Para este desafio foi usado  [Angular CLI](https://github.com/angular/angular-cli) na versão 19.0.7. E cada modulo do menu corresponde a uma questão respondida.
+
+![WORKSPACE](./public/assets/workspace.png)
 
 ## Development server
 
