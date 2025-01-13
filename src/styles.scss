@@ -5,7 +5,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
- 
   background-color: #f0f0f0;
 }
 
@@ -20,21 +19,16 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
- 
 }
 
 .logo-background {
   background: linear-gradient(to left, #dae1e7, #fcbebe8e);
   padding: 20px;
-  border-top-right-radius: 0; /* Mantém o border-radius no canto superior direito */
-  border-bottom-right-radius: 0; /* Mantém o border-radius no canto inferior direito */
-  border-top-left-radius: 20px; /* Remove o border-radius no canto superior esquerdo */
-  border-bottom-left-radius: 20px; 
+  border-radius: 20px 0 0 0;
   display: flex;
   justify-content: center;
-  align-items: center; 
- 
-  width: 100%; /* Ajuste para a largura desejada */
+  align-items: center;
+  width: 100%;
 }
 
 .logo-background-container {

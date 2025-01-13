@@ -1,5 +1,4 @@
 .inversao-container {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,83 +6,69 @@
   height: 80vh;
   background-color: #dae1e76c; 
   padding: 20px;
-  border-top-right-radius: 20px; /* Mantém o border-radius no canto superior direito */
-    border-bottom-right-radius: 20px; /* Mantém o border-radius no canto inferior direito */
-    border-top-left-radius: 0; /* Remove o border-radius no canto superior esquerdo */
-    border-bottom-left-radius: 0; 
+  border-radius: 20px 0 0 0;
   background-size: cover;
   background-position: center;
   text-align: left;
   color: rgb(3, 3, 3);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-  
-    h1 {
-      margin-bottom: 50px;
-      font-size: 24px;
-      color: #333;
-      text-align: left;
-    }
-  
-    input, textarea {
-      font-size:14px;
-      width:100%;
-      padding:10px 20px;
-      background:none;
-      background-image:none;
-      border:1px solid #ccc;
-      color: #000;
-      border-radius:0;
-      transition:border-color .25s ease, box-shadow .25s ease;
-      margin-top: 10px;
-      &:focus {
-        outline:0;
-        border-color: #000000;
-      }
-    }
-    h2 {
-      margin-top: 20px;
-      font-size: 20px;
-      color: #333;
-    }
-  
-    p {
-      font-size: 18px;
-      color: #555;
-    }
+  h1, h2 {
+    margin: 0 0 20px;
+    font-size: 20px;
+    color: #333;
+  }
 
+  h1 {
+    font-size: 24px;
+  }
 
-    .back-btn {
+  p {
+    font-size: 18px;
+    color: #555;
+  }
 
-      margin-top: 40px;
-    
+  input, textarea {
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid #ccc;
+    color: #000;
+    border-radius: 0;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    margin-top: 10px;
+
+    &:focus {
+      outline: 0;
+      border-color: #000;
     }
+  }
 
-    .back-btn a{
+  .back-btn {
+    margin-top: 40px;
 
+    a {
       text-decoration: none;
       color: #000;
-      
+
       &:hover {
-       text-decoration: underline;
+        text-decoration: underline;
       }
-    
     }
-
-
-    .result {
-      background-color: #b1bdc450;
-      border-radius: 20px;
-      padding: 10px;
-      margin-top: 30px;
-      width: 80%; 
-      max-width: 250px; 
-    }
-    
-    .result p {
-      font-size: 18px;
-      text-align: center;
-    }
-    
   }
-  
+
+  .result {
+    background-color: #b1bdc450;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    width: 80%;
+    max-width: 250px;
+    text-align: center;
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
