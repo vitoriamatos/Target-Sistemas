@@ -19,15 +19,14 @@
 
   
     h1 {
-      margin-bottom: 20px;
+      margin-bottom: 50px;
       font-size: 24px;
       color: #333;
+      text-align: left;
     }
   
     input, textarea {
- 
       font-size:14px;
-      display:block;
       width:100%;
       padding:10px 20px;
       background:none;
@@ -73,15 +72,18 @@
 
 
     .result {
-      background-color: #b1bdc4;
+      background-color: #b1bdc450;
       border-radius: 20px;
-      padding: 20px;
+      padding: 10px;
       margin-top: 30px;
-      margin-bottom:  40px;
-      text-align: center;
-      width: 100%; /* Garante que a largura ocupe o container pai */
-     max-width: 300px; /* Define uma largura máxima, se necessário */
-     transition: all 0.5s ease; // Transição suave
+      width: 80%; 
+      max-width: 250px; 
     }
+    
+    .result p {
+      font-size: 18px;
+      text-align: center;
+    }
+    
   }
   
