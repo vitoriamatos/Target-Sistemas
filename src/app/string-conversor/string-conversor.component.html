@@ -2,7 +2,7 @@
     <h1>Inversão de String</h1>
     <div>
       <label for="inputString">Digite uma string:</label>
-      <input id="inputString" [(ngModel)]="inputString" (input)="inverterString()" placeholder="|" />
+      <input id="inputString" [(ngModel)]="inputString" (input)="inverterString()" placeholder="string" />
     </div>
   
     <div class="result" *ngIf="stringInvertida" @fadeInOut>

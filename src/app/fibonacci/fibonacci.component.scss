@@ -58,7 +58,7 @@ $br: 4px;
   }
   
   button:hover {
-    background-color: #301718;
+    background-color: #363636;
   }
 
   .result {
@@ -77,27 +77,23 @@ $br: 4px;
     font-weight: bold;
   }
   
-label {
-  justify-content: left;
-  font-size:20px;
-  margin-bottom: 20px;
-}
 
 input, textarea {
  
-  font-size:20px;
+  font-size:14px;
   display:block;
-  width:100%;
-  padding:5px 5px;
+  width:80%;
+  padding:10px 20px;
   background:none;
   background-image:none;
   border:1px solid $gray-light;
   color: #000;
   border-radius:0;
+  margin-top: 10px;
   transition:border-color .25s ease, box-shadow .25s ease;
   &:focus {
 		outline:0;
-		border-color: #640a0d;
+		border-color: #000000;
   }
 }
 
@@ -109,7 +105,7 @@ textarea {
 
 body app-root app-home .main-container{
 
-  background-color: #640a0d;
+  background-color: #363636;
   width: 100%;
 }
 .home-container {
