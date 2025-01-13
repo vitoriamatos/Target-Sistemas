@@ -1,0 +1,14 @@
+<div class="fibonacci-container">
+    <h1>Verificar Fibonacci</h1>
+    <div>
+      <label for="number">Digite um número:</label>
+      <!-- Vincule o valor de input ao número usando ngModel -->
+      <input id="number" type="number" [(ngModel)]="number" />
+    </div>
+    <button (click)="checkFibonacci()">Verificar</button>
+    
+    <div class="result">
+      <p>{{ resultMessage }}</p>
+    </div>
+  </div>
+  

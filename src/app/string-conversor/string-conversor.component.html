@@ -1,0 +1,13 @@
+<div class="inversao-container">
+    <h1>Inversão de String</h1>
+    <div>
+      <label for="inputString">Digite uma string:</label>
+      <input id="inputString" [(ngModel)]="inputString" (input)="inverterString()" placeholder="Digite aqui" />
+    </div>
+  
+    <div >
+      <h2>Resultado da inversão:</h2>
+      <p>{{ stringInvertida }}</p>
+    </div>
+  </div>
+  
