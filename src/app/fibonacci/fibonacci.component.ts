@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // Importar FormsModule
 
@@ -6,7 +7,7 @@ import { FormsModule } from '@angular/forms'; // Importar FormsModule
   templateUrl: './fibonacci.component.html',
   styleUrls: ['./fibonacci.component.scss'],
   standalone: true, // Configurar como standalone
-  imports: [FormsModule] // Importar FormsModule explicitamente
+  imports: [FormsModule, CommonModule] // Importar FormsModule explicitamente
 })
 export class FibonacciComponent {
   number: number = 0;

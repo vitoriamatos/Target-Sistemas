@@ -5,14 +5,13 @@
       <input id="inputString" [(ngModel)]="inputString" (input)="inverterString()" placeholder="|" />
     </div>
   
-    <div >
+    <div class="result" *ngIf="stringInvertida" @fadeInOut>
       <h2>Resultado da inversão:</h2>
       <p>{{ stringInvertida }}</p>
     </div>
 
-    <div>
-      
-      <a class="back-btn" href="/">Voltar</a>
+    <div class="back-btn">
+      <a href="/">Voltar</a>
     </div>
   </div>
   

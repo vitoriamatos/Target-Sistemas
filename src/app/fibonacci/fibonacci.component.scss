@@ -20,7 +20,7 @@ $br: 4px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 80vh;
   background-color: #dae1e76c; 
   padding: 20px;
   border-top-right-radius: 20px; /* Mantém o border-radius no canto superior direito */
@@ -66,6 +66,10 @@ $br: 4px;
     border-radius: 20px;
     padding: 20px;
     margin-top: 30px;
+    margin-bottom:  40px;
+
+    width: 100%; /* Garante que a largura ocupe o container pai */
+   max-width: 300px; /* Define uma largura máxima, se necessário */
   }
   
   .result p {
@@ -149,8 +153,13 @@ body app-root app-home .main-container{
   
 }
 
-.back-btn{
+.back-btn a{
 
-  margin-top: 40px;
+  text-decoration: none;
+  color: #000;
+
+  &:hover {
+   text-decoration: underline;
+  }
 
 }

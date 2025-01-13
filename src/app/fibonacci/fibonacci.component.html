@@ -9,14 +9,12 @@
     
     
  
-    <div class="result">
-      
+    <div class="result" *ngIf="resultMessage" >
       <p>{{ resultMessage }}</p>
     </div>
-
-    <div>
-      
-      <a class="back-btn" href="/">Voltar</a>
+   
+    <div class="back-btn">
+      <a  href="/">Voltar</a>
     </div>
   </div>
   

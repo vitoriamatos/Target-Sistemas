@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 80vh;
   background-color: #dae1e76c; 
   padding: 20px;
   border-top-right-radius: 20px; /* Mantém o border-radius no canto superior direito */
@@ -37,6 +37,7 @@
      
       border-collapse: collapse;
       margin-top: 20px;
+      margin-bottom: 40px;
   
       th, td {
         border: 1px solid #ddd;
@@ -56,6 +57,17 @@
       tr:hover {
         background-color: #f1f1f1;
       }
+    }
+
+    .back-btn a{
+
+      text-decoration: none;
+      color: #000;
+    
+      &:hover {
+       text-decoration: underline;
+      }
+    
     }
   }
   
