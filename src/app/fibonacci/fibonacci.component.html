@@ -4,11 +4,19 @@
       <label for="number">Digite um número:</label>
       <!-- Vincule o valor de input ao número usando ngModel -->
       <input id="number" type="number" [(ngModel)]="number" />
+      <button (click)="checkFibonacci()">Verificar</button>
     </div>
-    <button (click)="checkFibonacci()">Verificar</button>
     
+    
+ 
     <div class="result">
+      
       <p>{{ resultMessage }}</p>
+    </div>
+
+    <div>
+      
+      <a class="back-btn" href="/">Voltar</a>
     </div>
   </div>
   

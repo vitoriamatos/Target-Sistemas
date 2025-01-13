@@ -1,7 +1,22 @@
 .inversao-container {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #dae1e76c; 
+  padding: 20px;
+  border-top-right-radius: 20px; /* Mantém o border-radius no canto superior direito */
+    border-bottom-right-radius: 20px; /* Mantém o border-radius no canto inferior direito */
+    border-top-left-radius: 0; /* Remove o border-radius no canto superior esquerdo */
+    border-bottom-left-radius: 0; 
+  background-size: cover;
+  background-position: center;
+  text-align: left;
+  color: rgb(3, 3, 3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
   
     h1 {
       margin-bottom: 20px;
@@ -9,13 +24,23 @@
       color: #333;
     }
   
-    input {
-      padding: 8px;
-      margin-top: 10px;
-      width: 100%;
-      max-width: 300px;
+    input, textarea {
+ 
+      font-size:20px;
+      display:block;
+      width:100%;
+      padding:5px 5px;
+      background:none;
+      background-image:none;
+      border:1px solid #ccc;
+      color: #000;
+      border-radius:0;
+      transition:border-color .25s ease, box-shadow .25s ease;
+      &:focus {
+        outline:0;
+        border-color: #640a0d;
+      }
     }
-  
     h2 {
       margin-top: 20px;
       font-size: 20px;

@@ -1,32 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-  }
-  
-  h1 {
-    font-size: 2rem;
-    color: #333;
-  }
-  
-  a {
-    padding: 10px 20px;
-    margin: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  
-    &:hover {
-      background-color: #0056b3;
-    }
-  }
-  
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.logo-container-main-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.logo-background {
+  background: linear-gradient(to left, #dae1e7, #fcbebe8e);
+  padding: 20px;
+  border-top-right-radius: 0; /* Mantém o border-radius no canto superior direito */
+  border-bottom-right-radius: 0; /* Mantém o border-radius no canto inferior direito */
+  border-top-left-radius: 20px; /* Remove o border-radius no canto superior esquerdo */
+  border-bottom-left-radius: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* Ajuste para a altura desejada */
+  width: 100%; /* Ajuste para a largura desejada */
+}
+
+.logo-background-container {
+  text-align: center;
+  padding: 100px;
+}
+
+.logo-img {
+  width: 20%;
+  margin-bottom: 20px;
+}
